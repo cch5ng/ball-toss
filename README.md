@@ -10,9 +10,14 @@
 
 * animating on curve
   * http://greensock.com/docs/#/HTML5/Plugins/BezierPlugin/
+  * https://greensock.com/docs/#/HTML5/GSAP/Plugins/BezierPlugin/
 * looping animation: need TimelineMax
   * http://greensock.com/forums/topic/6743-looping-animation-a-set-number/
 
 * css sprite animation
   * http://www.sitepoint.com/responsive-sprite-animations-imagemagick-greensock/
   * http://spritepad.wearekiss.com/
+
+* css shapes
+  * https://davidwalsh.name/css-circles
+  * https://css-tricks.com/examples/ShapesOfCSS/

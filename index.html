@@ -27,9 +27,57 @@
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenLite.min.js"></script>
 	-->
 
+	<!--	idea of arms tossing an item back and forth in an arc; the pivot for rotation looks a little weird to me
+				wonder if the pivot is assumed at the center of the image or at one of the corners (bottom left/bottom right) 
+	-->
+
 	<div class="banner">
 		<img src="assets/arms.png" id="arms" alt="arms" />
 	</div>
+
+
+	<!-- ball bounce, with stretch and squash, using sprites; it is not working as expected; maybe sprites have to be drawn all in same scale and just change out images very fast -->
+	<!--
+	<div class="container">
+		<div id="anim" class="anim anim1">
+		</div>
+	</div>
+	-->
+
+	<!-- ball bounce using greensock bounce ease out anim; abrupt ending but handles all transitions for you -->
+	<div class="container">
+		<div id="anim2" class="anim anim2">
+		</div>
+	</div>
+
+
+	<!-- ball rotation horizontal line using greensock ease out back anim; circle works better than square
+				think that rotation occurs on the center
+	-->
+	<div class="container">
+		<div id="anim3" class="anim anim3">
+		</div>
+	</div>
+
+
+	<!-- ball rotation diagonal line; it is actually pretty smooth on default ease
+				right now tried elastic ease out, not sure what it is like in real life
+				takes a long time to reload
+				sort of like the bow in a bow and arrow but not sure how that translates
+	-->
+
+	<div class="container">
+		<div id="anim4" class="anim anim4">
+		</div>
+	</div>
+
+
+	<!-- animation on a path with rotation; rotation seems to only occur at points on path and not regularly -->
+	<div class="container">
+		<div id="anim5" class="anim anim5">
+		</div>
+	</div>
+
 
 	<script src="js/anim.js"></script>
 	</body>
